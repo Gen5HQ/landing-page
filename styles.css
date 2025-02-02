@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+main {
+  position: absolute;
+  text-align: center;
+  inset: 0;
+  height: fit-content;
+  margin: auto;
+}
+
+p {
+  color: #aaa;
+}
+
+#content {
+  padding: 0 20px;
+}
+
+#logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+#vertical-divider {
+  height: 80px;
+  width: 1px;
+  margin: 0 auto;
+  background: #ccc;
+}
+
+#screenshot {
+  position: relative;
+  animation: moveUpDown 3s ease-in-out infinite;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 5 / 3;
+}
+
+a {
+  color: #3170f8;
+}
+
+@keyframes moveUpDown {
+  0% {
+    top: 0;
+    filter: drop-shadow(0 35px 10px rgba(0, 0, 0, 0.23));
+  }
+  50% {
+    top: 20px;
+    filter: drop-shadow(0 15px 5px rgba(0, 0, 0, 0.23));
+  }
+  100% {
+    top: 0;
+    filter: drop-shadow(0 35px 10px rgba(0, 0, 0, 0.23));
+  }
+}
