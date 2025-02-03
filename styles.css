@@ -47,14 +47,17 @@ a {
 @keyframes moveUpDown {
   0% {
     top: 0;
-    filter: drop-shadow(0 35px 10px rgba(0, 0, 0, 0.23));
+    filter: drop-shadow(0 35px 10px rgba(0, 0, 0, 0.23))
+      drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
   }
   50% {
     top: 20px;
-    filter: drop-shadow(0 15px 5px rgba(0, 0, 0, 0.23));
+    filter: drop-shadow(0 15px 5px rgba(0, 0, 0, 0.23))
+      drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
   }
   100% {
     top: 0;
-    filter: drop-shadow(0 35px 10px rgba(0, 0, 0, 0.23));
+    filter: drop-shadow(0 35px 10px rgba(0, 0, 0, 0.23))
+      drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
   }
 }
